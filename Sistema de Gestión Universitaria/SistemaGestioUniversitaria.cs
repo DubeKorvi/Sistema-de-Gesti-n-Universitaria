@@ -23,14 +23,12 @@ namespace Sistema_de_Gestión_Universitaria
             gestorMatriculas = new GestorMatriculas(repositorioEstudiantes, repositorioCursos);
         }
 
-        // ═══════════════════════════════════════════════════════════════════════
-        // PUNTO 10: GENERACIÓN DE DATOS DE PRUEBA
-        // ═══════════════════════════════════════════════════════════════════════
+     
 
-        /// <summary>
-        /// Genera datos de prueba para el sistema.
-        /// Crea 15+ estudiantes, 5+ profesores, 10+ cursos, 30+ matrículas.
-        /// </summary>
+        
+        // Genera datos de prueba para el sistema.
+        // Crea 15+ estudiantes, 5+ profesores, 10+ cursos, 30+ matrículas.
+        
         public void GenerarDatosPrueba()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -308,9 +306,6 @@ namespace Sistema_de_Gestión_Universitaria
             Console.ResetColor();
         }
 
-        // ═══════════════════════════════════════════════════════════════════════
-        // MÉTODOS AUXILIARES
-        // ═══════════════════════════════════════════════════════════════════════
 
         private void PausarYContinuar()
         {

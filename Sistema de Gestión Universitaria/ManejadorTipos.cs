@@ -210,9 +210,9 @@ namespace Sistema_de_Gestión_Universitaria
             Console.WriteLine("═══════════════════════════════════════════════════════\n");
         }
 
-        /// <summary>
-        /// Ejemplo de conversiones seguras con múltiples tipos.
-        /// </summary>
+        
+        // Ejemplo de conversiones seguras con múltiples tipos.
+        
         public static void DemostrarConversiones()
         {
             Console.WriteLine("\n═══════════════════════════════════════════════════════");

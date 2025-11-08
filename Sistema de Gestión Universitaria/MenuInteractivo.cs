@@ -74,7 +74,7 @@ namespace Sistema_de_Gestión_Universitaria
             }
         }
 
-        #region MENÚS
+      
 
         private void MostrarMenuPrincipal()
         {
@@ -446,9 +446,7 @@ namespace Sistema_de_Gestión_Universitaria
             PausarYContinuar();
         }
 
-        #endregion
-
-        #region OPERACIONES ESTUDIANTES
+       
 
         private void AgregarEstudiante()
         {
@@ -638,9 +636,7 @@ namespace Sistema_de_Gestión_Universitaria
             PausarYContinuar();
         }
 
-        #endregion
-
-        #region OPERACIONES PROFESORES
+        
 
         private void AgregarProfesor()
         {
@@ -853,9 +849,7 @@ namespace Sistema_de_Gestión_Universitaria
             PausarYContinuar();
         }
 
-        #endregion
-
-        #region OPERACIONES CURSOS
+       
 
         private void AgregarCurso()
         {
@@ -1000,9 +994,7 @@ namespace Sistema_de_Gestión_Universitaria
             PausarYContinuar();
         }
 
-        #endregion
-
-        #region REPORTES
+        
 
         private void GenerarReporteEstudiante()
         {
@@ -1157,9 +1149,7 @@ namespace Sistema_de_Gestión_Universitaria
             PausarYContinuar();
         }
 
-        #endregion
-
-        #region UTILIDADES
+        
 
         private void MostrarBienvenida()
         {
@@ -1229,6 +1219,6 @@ namespace Sistema_de_Gestión_Universitaria
             Console.ReadLine();
         }
 
-        #endregion
+       
     }
 }

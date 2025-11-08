@@ -20,9 +20,9 @@ namespace Sistema_de_Gestión_Universitaria
         }
     }
 
-    /// <summary>
-    /// Atributo para campos requeridos
-    /// </summary>
+    
+    // Atributo para campos requeridos
+    
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class RequeridoAttribute : Attribute
     {
@@ -34,9 +34,9 @@ namespace Sistema_de_Gestión_Universitaria
         }
     }
 
-    /// <summary>
-    /// Atributo para validar formato con regex
-    /// </summary>
+  
+    // Atributo para validar formato con regex
+   
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class FormatoAttribute : Attribute
     {
